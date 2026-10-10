@@ -11,12 +11,18 @@ def main(**kwargs):
     
     options = []
 
-    import working_oomp_populate_input_sensor
-    #options.extend(working_oomp_populate_input_sensor.main(**kwargs))
-    import working_oomp_populate_mcu
-    #options.extend(working_oomp_populate_mcu.main(**kwargs))
-    import working_oomp_populate_output
-    options.extend(working_oomp_populate_output.main(**kwargs))
+    #input
+    if True:
+        import working_oomp_populate_input_remote_control
+        options.extend(working_oomp_populate_input_remote_control.main(**kwargs))
+    #output
+    if True:
+        import working_oomp_populate_output
+        options.extend(working_oomp_populate_output.main(**kwargs))
+    #power
+    if True:
+        import working_oomp_populate_power
+        options.extend(working_oomp_populate_power.main(**kwargs))
     
 ###### populate taxonomy details and oobb details
     if True:
@@ -35,6 +41,11 @@ def main(**kwargs):
                 count += 1
             if "type_3" in option:
                 value_name = "type_3"
+                value = option.get(value_name, None)
+                option[f"taxonomy_{count}"] = f"{value}"
+                count += 1
+            if "type_4" in option:
+                value_name = "type_4"
                 value = option.get(value_name, None)
                 option[f"taxonomy_{count}"] = f"{value}"
                 count += 1
@@ -57,7 +68,10 @@ def main(**kwargs):
                 #taxonomy_4 hole_cover
                 oobb_details["oobb_name"] = "mounting_plate_default"
                 oobb_details.update(option)
-                option["oobb_details"] = oobb_details
+                oobb_details_wire = copy.deepcopy(oobb_details)
+                oobb_details_wire["oobb_name"] = "mounting_plate_oobb"
+                oobb_details_wire["scad_output"] = "working_oobb"
+                option["oobb_details"] = [oobb_details, oobb_details_wire]
             #svg details
             if False:
                 pass

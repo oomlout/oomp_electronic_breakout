@@ -182,6 +182,7 @@ def make_scad_generic(part):
     modes = kwargs.get("modes", ["3dpr", "laser", "true"])
     save_type = kwargs.get("save_type", "all")
     overwrite = kwargs.get("overwrite", True)
+    scad_output = kwargs.get("scad_output", "")
 
     kwargs["type"] = f"{project_name}_{oobb_name}"
 
@@ -254,12 +255,15 @@ def make_scad_generic(part):
             start = 0.5
         
 
-        oobb.opsc_make_object(f'{folder}/{mode}.scad', thing["components"], mode=mode, save_type=save_type, overwrite=overwrite, layers=layers, tilediff=tilediff, start=start)
+        output_name = scad_output or mode
+        if scad_output and mode != "3dpr":
+            output_name = f"{scad_output}_{mode}"
+        oobb.opsc_make_object(f'{folder}/{output_name}.scad', thing["components"], mode=mode, save_type=save_type, overwrite=overwrite, layers=layers, tilediff=tilediff, start=start)
         cleanup_raw_scad_artifacts(folder)
         
 
 
-    yaml_file = f"{folder}/working.yaml"
+    yaml_file = f"{folder}/{scad_output or 'working'}.yaml"
     #partial dump
     with open(yaml_file, 'w') as file:
         part_new = copy.deepcopy(part)
@@ -275,7 +279,7 @@ def make_scad_generic(part):
         yaml.dump(part_new, file)
     
     #full dump
-    yaml_file = f"{folder}/thing.yaml"
+    yaml_file = f"{folder}/{scad_output + '_thing' if scad_output else 'thing'}.yaml"
     with open(yaml_file, 'w') as file:
         part_new = copy.deepcopy(part)
         kwargs_new = part_new.get("kwargs", {})

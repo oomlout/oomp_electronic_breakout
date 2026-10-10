@@ -1,0 +1,2135 @@
+bip_39_2_word_array:
+- rotate
+- prefer
+bip_39_2_word_no_space: rotateprefer
+bip_39_2_word_space: rotate prefer
+bip_39_2_word_underscore: rotate_prefer
+bip_39_3_word_array:
+- rotate
+- prefer
+- library
+bip_39_3_word_no_space: rotatepreferlibrary
+bip_39_3_word_space: rotate prefer library
+bip_39_3_word_underscore: rotate_prefer_library
+bip_39_full_array:
+- rotate
+- prefer
+- library
+- hard
+- consider
+- rocket
+- wise
+- what
+- bid
+- case
+- nephew
+- conduct
+bip_39_full_no_space: rotatepreferlibraryhardconsiderrocketwisewhatbidcasenephewconduct
+bip_39_full_space: rotate prefer library hard consider rocket wise what bid case nephew
+  conduct
+bip_39_full_underscore: rotate_prefer_library_hard_consider_rocket_wise_what_bid_case_nephew_conduct
+breakout_description: 18_mm_width_14_mm_height_purple_pcb
+breakout_pcb_height: 14
+breakout_pcb_width: 18
+directory: parts/electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+id: electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+id_no_class: electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+id_no_size: electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+id_no_type: electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+id_oobb: electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+kwargs:
+  breakout_description: 18_mm_width_14_mm_height_purple_pcb
+  breakout_pcb_height: 14
+  breakout_pcb_width: 18
+  filter: ''
+  manufacturer: aliexpress
+  modes:
+  - 3dpr
+  mounting_hole_radius_name: m2
+  mounting_holes:
+  - - 7.5
+    - 5.5
+  - - 7.5
+    - -5.5
+  navigation: true
+  oobb_name: mounting_plate_default
+  oomp_description_extra: ''
+  oomp_description_main: mounting_plate_default_
+  oomp_mode: project
+  oomp_run: false
+  overwrite: true
+  part_number_aliexpress: '1005009566745868'
+  taxonomy_1: electronic
+  taxonomy_14: aliexpress
+  taxonomy_2: breakout
+  taxonomy_3: input
+  taxonomy_4: remote_control
+  taxonomy_5: servo_tester
+  taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+  type: default_mounting_plate_default
+  type_1: input
+  type_2: remote_control
+  type_3: servo_tester
+  webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+manufacturer: aliexpress
+md5: bc353a043492f576ff1fce1604665117
+md5_10: bc353a0434
+md5_10_upper: BC353A0434
+md5_5: bc353
+md5_5_upper: BC353
+md5_6: bc353a
+md5_6_alpha: 7cda2
+md5_6_alpha_upper: 7CDA2
+md5_6_upper: BC353A
+mounting_hole_radius_name: m2
+mounting_holes: &id001
+- - 7.5
+  - 5.5
+- - 7.5
+  - -5.5
+name: Electronic Breakout Input Remote Control Servo Tester 18 Mm Width 14 Mm Height
+  Purple Pcb Aliexpress
+name_no_class: Electronic Breakout Input Remote Control Servo Tester 18 Mm Width 14
+  Mm Height Purple Pcb Aliexpress
+name_no_size: Electronic Breakout Input Remote Control Servo Tester 18 Mm Width 14
+  Mm Height Purple Pcb Aliexpress
+name_no_type: Electronic Breakout Input Remote Control Servo Tester 18 Mm Width 14
+  Mm Height Purple Pcb Aliexpress
+name_proper: Electronic Breakout Input Remote Control Servo Tester 18 Mm Width 14
+  Mm Height Purple Pcb Aliexpress
+name_space: electronic breakout input remote control servo tester 18 mm width 14 mm
+  height purple pcb aliexpress
+name_upper: ELECTRONIC BREAKOUT INPUT REMOTE CONTROL SERVO TESTER 18 MM WIDTH 14 MM
+  HEIGHT PURPLE PCB ALIEXPRESS
+oobb_details:
+- breakout_description: 18_mm_width_14_mm_height_purple_pcb
+  breakout_pcb_height: 14
+  breakout_pcb_width: 18
+  manufacturer: aliexpress
+  mounting_hole_radius_name: m2
+  mounting_holes: *id001
+  oobb_name: mounting_plate_default
+  part_number_aliexpress: '1005009566745868'
+  taxonomy_1: electronic
+  taxonomy_14: aliexpress
+  taxonomy_2: breakout
+  taxonomy_3: input
+  taxonomy_4: remote_control
+  taxonomy_5: servo_tester
+  taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+  type_1: input
+  type_2: remote_control
+  type_3: servo_tester
+  webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+- breakout_description: 18_mm_width_14_mm_height_purple_pcb
+  breakout_pcb_height: 14
+  breakout_pcb_width: 18
+  manufacturer: aliexpress
+  mounting_hole_radius_name: m2
+  mounting_holes:
+  - - 7.5
+    - 5.5
+  - - 7.5
+    - -5.5
+  oobb_name: mounting_plate_oobb
+  part_number_aliexpress: '1005009566745868'
+  scad_output: working_oobb
+  taxonomy_1: electronic
+  taxonomy_14: aliexpress
+  taxonomy_2: breakout
+  taxonomy_3: input
+  taxonomy_4: remote_control
+  taxonomy_5: servo_tester
+  taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+  type_1: input
+  type_2: remote_control
+  type_3: servo_tester
+  webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+oobb_name: mounting_plate_default
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      breakout_description: 18_mm_width_14_mm_height_purple_pcb
+      breakout_pcb_height: 14
+      breakout_pcb_width: 18
+      directory: parts\electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+      manufacturer: aliexpress
+      mounting_hole_radius_name: m2
+      mounting_holes: &id002
+      - - 7.5
+        - 5.5
+      - - 7.5
+        - -5.5
+      name: electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+      name_proper: Electronic Breakout Input Remote Control Servo Tester 18 Mm Width
+        14 Mm Height Purple Pcb Aliexpress
+      name_space: electronic breakout input remote control servo tester 18 mm width
+        14 mm height purple pcb aliexpress
+      name_upper: ELECTRONIC BREAKOUT INPUT REMOTE CONTROL SERVO TESTER 18 MM WIDTH
+        14 MM HEIGHT PURPLE PCB ALIEXPRESS
+      oobb_details:
+      - breakout_description: 18_mm_width_14_mm_height_purple_pcb
+        breakout_pcb_height: 14
+        breakout_pcb_width: 18
+        manufacturer: aliexpress
+        mounting_hole_radius_name: m2
+        mounting_holes: *id002
+        oobb_name: mounting_plate_default
+        part_number_aliexpress: '1005009566745868'
+        taxonomy_1: electronic
+        taxonomy_14: aliexpress
+        taxonomy_2: breakout
+        taxonomy_3: input
+        taxonomy_4: remote_control
+        taxonomy_5: servo_tester
+        taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+        type_1: input
+        type_2: remote_control
+        type_3: servo_tester
+        webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+      - breakout_description: 18_mm_width_14_mm_height_purple_pcb
+        breakout_pcb_height: 14
+        breakout_pcb_width: 18
+        manufacturer: aliexpress
+        mounting_hole_radius_name: m2
+        mounting_holes:
+        - - 7.5
+          - 5.5
+        - - 7.5
+          - -5.5
+        oobb_name: mounting_plate_oobb
+        part_number_aliexpress: '1005009566745868'
+        scad_output: working_oobb
+        taxonomy_1: electronic
+        taxonomy_14: aliexpress
+        taxonomy_2: breakout
+        taxonomy_3: input
+        taxonomy_4: remote_control
+        taxonomy_5: servo_tester
+        taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+        type_1: input
+        type_2: remote_control
+        type_3: servo_tester
+        webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+      part_number_aliexpress: '1005009566745868'
+      taxonomy_1: electronic
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: aliexpress
+      taxonomy_15: ''
+      taxonomy_2: breakout
+      taxonomy_3: input
+      taxonomy_4: remote_control
+      taxonomy_5: servo_tester
+      taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+      taxonomy_7: ''
+      taxonomy_8: ''
+      taxonomy_9: ''
+      type_1: input
+      type_2: remote_control
+      type_3: servo_tester
+      url_chat: ''
+      webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomp_electronic_breakout\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+part_number_aliexpress: '1005009566745868'
+project_name: C:\gh\oomp_electronic_breakout
+taxonomy_1: electronic
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: aliexpress
+taxonomy_14_capital: Aliexpress
+taxonomy_14_first_letter: a
+taxonomy_14_first_letter_upper: A
+taxonomy_14_length_1: a
+taxonomy_14_length_2: al
+taxonomy_14_length_3: ali
+taxonomy_14_length_4: alie
+taxonomy_14_length_5: aliex
+taxonomy_14_upper: ALIEXPRESS
+taxonomy_14_upper_length_1: A
+taxonomy_14_upper_length_2: AL
+taxonomy_14_upper_length_3: ALI
+taxonomy_14_upper_length_4: ALIE
+taxonomy_14_upper_length_5: ALIEX
+taxonomy_15: ''
+taxonomy_1_capital: Electronic
+taxonomy_1_first_letter: e
+taxonomy_1_first_letter_upper: E
+taxonomy_1_length_1: e
+taxonomy_1_length_2: el
+taxonomy_1_length_3: ele
+taxonomy_1_length_4: elec
+taxonomy_1_length_5: elect
+taxonomy_1_upper: ELECTRONIC
+taxonomy_1_upper_length_1: E
+taxonomy_1_upper_length_2: EL
+taxonomy_1_upper_length_3: ELE
+taxonomy_1_upper_length_4: ELEC
+taxonomy_1_upper_length_5: ELECT
+taxonomy_2: breakout
+taxonomy_2_capital: Breakout
+taxonomy_2_first_letter: b
+taxonomy_2_first_letter_upper: B
+taxonomy_2_length_1: b
+taxonomy_2_length_2: br
+taxonomy_2_length_3: bre
+taxonomy_2_length_4: brea
+taxonomy_2_length_5: break
+taxonomy_2_upper: BREAKOUT
+taxonomy_2_upper_length_1: B
+taxonomy_2_upper_length_2: BR
+taxonomy_2_upper_length_3: BRE
+taxonomy_2_upper_length_4: BREA
+taxonomy_2_upper_length_5: BREAK
+taxonomy_3: input
+taxonomy_3_capital: Input
+taxonomy_3_first_letter: i
+taxonomy_3_first_letter_upper: I
+taxonomy_3_length_1: i
+taxonomy_3_length_2: in
+taxonomy_3_length_3: inp
+taxonomy_3_length_4: inpu
+taxonomy_3_length_5: input
+taxonomy_3_upper: INPUT
+taxonomy_3_upper_length_1: I
+taxonomy_3_upper_length_2: IN
+taxonomy_3_upper_length_3: INP
+taxonomy_3_upper_length_4: INPU
+taxonomy_3_upper_length_5: INPUT
+taxonomy_4: remote_control
+taxonomy_4_capital: Remote Control
+taxonomy_4_first_letter: r
+taxonomy_4_first_letter_upper: R
+taxonomy_4_length_1: r
+taxonomy_4_length_2: re
+taxonomy_4_length_3: rem
+taxonomy_4_length_4: remo
+taxonomy_4_length_5: remot
+taxonomy_4_upper: REMOTE_CONTROL
+taxonomy_4_upper_length_1: R
+taxonomy_4_upper_length_2: RE
+taxonomy_4_upper_length_3: REM
+taxonomy_4_upper_length_4: REMO
+taxonomy_4_upper_length_5: REMOT
+taxonomy_5: servo_tester
+taxonomy_5_capital: Servo Tester
+taxonomy_5_first_letter: s
+taxonomy_5_first_letter_upper: S
+taxonomy_5_length_1: s
+taxonomy_5_length_2: se
+taxonomy_5_length_3: ser
+taxonomy_5_length_4: serv
+taxonomy_5_length_5: servo
+taxonomy_5_upper: SERVO_TESTER
+taxonomy_5_upper_length_1: S
+taxonomy_5_upper_length_2: SE
+taxonomy_5_upper_length_3: SER
+taxonomy_5_upper_length_4: SERV
+taxonomy_5_upper_length_5: SERVO
+taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+taxonomy_6_capital: 18 mm Width 14 mm Height Purple Pcb
+taxonomy_6_first_letter: '1'
+taxonomy_6_first_letter_upper: '1'
+taxonomy_6_length_1: '1'
+taxonomy_6_length_2: '18'
+taxonomy_6_length_3: '18_'
+taxonomy_6_length_4: 18_m
+taxonomy_6_length_5: 18_mm
+taxonomy_6_upper: 18_MM_WIDTH_14_MM_HEIGHT_PURPLE_PCB
+taxonomy_6_upper_length_1: '1'
+taxonomy_6_upper_length_2: '18'
+taxonomy_6_upper_length_3: '18_'
+taxonomy_6_upper_length_4: 18_M
+taxonomy_6_upper_length_5: 18_MM
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+thing:
+  bip_39_2_word_array:
+  - rotate
+  - prefer
+  bip_39_2_word_no_space: rotateprefer
+  bip_39_2_word_space: rotate prefer
+  bip_39_2_word_underscore: rotate_prefer
+  bip_39_3_word_array:
+  - rotate
+  - prefer
+  - library
+  bip_39_3_word_no_space: rotatepreferlibrary
+  bip_39_3_word_space: rotate prefer library
+  bip_39_3_word_underscore: rotate_prefer_library
+  bip_39_full_array:
+  - rotate
+  - prefer
+  - library
+  - hard
+  - consider
+  - rocket
+  - wise
+  - what
+  - bid
+  - case
+  - nephew
+  - conduct
+  bip_39_full_no_space: rotatepreferlibraryhardconsiderrocketwisewhatbidcasenephewconduct
+  bip_39_full_space: rotate prefer library hard consider rocket wise what bid case
+    nephew conduct
+  bip_39_full_underscore: rotate_prefer_library_hard_consider_rocket_wise_what_bid_case_nephew_conduct
+  breakout_description: 18_mm_width_14_mm_height_purple_pcb
+  breakout_pcb_height: 14
+  breakout_pcb_width: 18
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 3
+      height: 3
+      pos:
+      - 0
+      - 0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 44
+      - 44
+      - 3
+      type: positive
+      width: 3
+  - - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - -15.0
+        - -15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - -15.0
+        - -15.0
+        - -100.0
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - -15.0
+        - -15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - -15.0
+        - 0.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - -15.0
+        - 0.0
+        - -100.0
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - -15.0
+        - 0.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - -15.0
+        - 15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - -15.0
+        - 15.0
+        - -100.0
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - -15.0
+        - 15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - 0.0
+        - -15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - 0.0
+        - -15.0
+        - -100.0
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - 0.0
+        - -15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - 0.0
+        - 15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - 0.0
+        - 15.0
+        - -100.0
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - 0.0
+        - 15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - 15.0
+        - -15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - 15.0
+        - -15.0
+        - -100.0
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - 15.0
+        - -15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - 15.0
+        - 0.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - 15.0
+        - 0.0
+        - -100.0
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - 15.0
+        - 0.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - 15.0
+        - 15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - 15.0
+        - 15.0
+        - -100.0
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - 15.0
+        - 15.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - -15.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - -15.0
+        - -15.0
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - -15.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - -15.0
+        - -7.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - -15.0
+        - -7.5
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - -15.0
+        - -7.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - -15.0
+        - 0.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - -15.0
+        - 0.0
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - -15.0
+        - 0.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - -15.0
+        - 7.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - -15.0
+        - 7.5
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - -15.0
+        - 7.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - -15.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - -15.0
+        - 15.0
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - -15.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - -7.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - -7.5
+        - -15.0
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - -7.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - -7.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - -7.5
+        - 15.0
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - -7.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - 0.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - 0.0
+        - -15.0
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - 0.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - 0.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - 0.0
+        - 15.0
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - 0.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - 7.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - 7.5
+        - -15.0
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - 7.5
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - 7.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - 7.5
+        - 15.0
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - 7.5
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - 15.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - 15.0
+        - -15.0
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - 15.0
+        - -15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - 15.0
+        - -7.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - 15.0
+        - -7.5
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - 15.0
+        - -7.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - 15.0
+        - 0.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - 15.0
+        - 0.0
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - 15.0
+        - 0.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - 15.0
+        - 7.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - 15.0
+        - 7.5
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - 15.0
+        - 7.5
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: ''
+        pos:
+        - 15.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: ''
+        pos:
+        - 15.0
+        - 15.0
+        - -100.0
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: ''
+        pos:
+        - 15.0
+        - 15.0
+        - -100.0
+        r: 1.5
+        shape: cylinder
+        type: negative
+  - - objects:
+      - - depth: 6
+          h: 0.65
+          height: 3
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -0.65
+          r1: 1.0
+          r2: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+      - - depth: 6
+          h: 6
+          height: 3
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.0
+          radius: 1.0
+          shape: cylinder
+          type: positive
+          width: 3
+        - depth: 6
+          h: 6
+          height: 3
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.0
+          shape: cylinder
+          type: positive
+          width: 3
+        - depth: 6
+          h: 6
+          height: 3
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.0
+          radius: 1.0
+          shape: cylinder
+          type: positive
+          width: 3
+      - - depth: 6
+          h: 0.85
+          height: 3
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -0.85
+          r1: 1.35
+          r2: 3.0
+          shape: cylinder
+          type: positive
+          width: 3
+      - - depth: 6
+          h: 6
+          height: 3
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.35
+          radius: 1.35
+          shape: cylinder
+          type: positive
+          width: 3
+        - depth: 6
+          h: 6
+          height: 3
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.35
+          shape: cylinder
+          type: positive
+          width: 3
+        - depth: 6
+          h: 6
+          height: 3
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.35
+          radius: 1.35
+          shape: cylinder
+          type: positive
+          width: 3
+      - - depth: 6
+          h: 0.65
+          height: 3
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -0.65
+          r1: 1.0
+          r2: 2.0
+          shape: cylinder
+          type: positive
+          width: 3
+      - - depth: 6
+          h: 6
+          height: 3
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.0
+          radius: 1.0
+          shape: cylinder
+          type: positive
+          width: 3
+        - depth: 6
+          h: 6
+          height: 3
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.0
+          shape: cylinder
+          type: positive
+          width: 3
+        - depth: 6
+          h: 6
+          height: 3
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.0
+          radius: 1.0
+          shape: cylinder
+          type: positive
+          width: 3
+      pos:
+      - 7.5
+      - 5.5
+      - 0
+      rot:
+      - 0
+      - 180
+      - 0
+      type: rotation
+      typetype: negative
+  - - depth: 3
+      h: 3
+      height: 3
+      inclusion: laser
+      pos: &id003
+      - 7.5
+      - 5.5
+      - 3.0
+      r: 2.75
+      radius: 2.75
+      shape: cylinder
+      type: positive
+      width: 3
+    - depth: 3
+      h: 3
+      height: 3
+      inclusion: 3dpr
+      pos: *id003
+      r: 2.75
+      shape: cylinder
+      type: positive
+      width: 3
+    - depth: 3
+      h: 3
+      height: 3
+      inclusion: 'true'
+      pos: *id003
+      r: 2.75
+      radius: 2.75
+      shape: cylinder
+      type: positive
+      width: 3
+  - - objects:
+      - - depth: 6
+          h: 0.65
+          height: 3
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -0.65
+          r1: 1.0
+          r2: 1.8
+          shape: cylinder
+          type: positive
+          width: 3
+      - - depth: 6
+          h: 6
+          height: 3
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.0
+          radius: 1.0
+          shape: cylinder
+          type: positive
+          width: 3
+        - depth: 6
+          h: 6
+          height: 3
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.0
+          shape: cylinder
+          type: positive
+          width: 3
+        - depth: 6
+          h: 6
+          height: 3
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.0
+          radius: 1.0
+          shape: cylinder
+          type: positive
+          width: 3
+      - - depth: 6
+          h: 0.85
+          height: 3
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -0.85
+          r1: 1.35
+          r2: 3.0
+          shape: cylinder
+          type: positive
+          width: 3
+      - - depth: 6
+          h: 6
+          height: 3
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.35
+          radius: 1.35
+          shape: cylinder
+          type: positive
+          width: 3
+        - depth: 6
+          h: 6
+          height: 3
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.35
+          shape: cylinder
+          type: positive
+          width: 3
+        - depth: 6
+          h: 6
+          height: 3
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.35
+          radius: 1.35
+          shape: cylinder
+          type: positive
+          width: 3
+      - - depth: 6
+          h: 0.65
+          height: 3
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -0.65
+          r1: 1.0
+          r2: 2.0
+          shape: cylinder
+          type: positive
+          width: 3
+      - - depth: 6
+          h: 6
+          height: 3
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.0
+          radius: 1.0
+          shape: cylinder
+          type: positive
+          width: 3
+        - depth: 6
+          h: 6
+          height: 3
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.0
+          shape: cylinder
+          type: positive
+          width: 3
+        - depth: 6
+          h: 6
+          height: 3
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.0
+          radius: 1.0
+          shape: cylinder
+          type: positive
+          width: 3
+      pos:
+      - 7.5
+      - -5.5
+      - 0
+      rot:
+      - 0
+      - 180
+      - 0
+      type: rotation
+      typetype: negative
+  - - depth: 3
+      h: 3
+      height: 3
+      inclusion: laser
+      pos: &id004
+      - 7.5
+      - -5.5
+      - 3.0
+      r: 2.75
+      radius: 2.75
+      shape: cylinder
+      type: positive
+      width: 3
+    - depth: 3
+      h: 3
+      height: 3
+      inclusion: 3dpr
+      pos: *id004
+      r: 2.75
+      shape: cylinder
+      type: positive
+      width: 3
+    - depth: 3
+      h: 3
+      height: 3
+      inclusion: 'true'
+      pos: *id004
+      r: 2.75
+      radius: 2.75
+      shape: cylinder
+      type: positive
+      width: 3
+  components_objects:
+  - breakout_description: 18_mm_width_14_mm_height_purple_pcb
+    breakout_pcb_height: 14
+    breakout_pcb_width: 18
+    depth: 3
+    filter: ''
+    height: 3
+    manufacturer: aliexpress
+    modes:
+    - 3dpr
+    mounting_hole_radius_name: m2
+    mounting_holes:
+    - - 7.5
+      - 5.5
+    - - 7.5
+      - -5.5
+    navigation: true
+    oobb_name: mounting_plate_default
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    part_number_aliexpress: '1005009566745868'
+    pos:
+    - 0
+    - 0
+    - 0
+    save_type: none
+    shape: oobb_plate
+    taxonomy_1: electronic
+    taxonomy_14: aliexpress
+    taxonomy_2: breakout
+    taxonomy_3: input
+    taxonomy_4: remote_control
+    taxonomy_5: servo_tester
+    taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+    type: positive
+    type_1: input
+    type_2: remote_control
+    type_3: servo_tester
+    webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+    width: 3
+  - both_holes: true
+    breakout_description: 18_mm_width_14_mm_height_purple_pcb
+    breakout_pcb_height: 14
+    breakout_pcb_width: 18
+    depth: 3
+    filter: ''
+    height: 3
+    holes: perimeter
+    manufacturer: aliexpress
+    modes:
+    - 3dpr
+    mounting_hole_radius_name: m2
+    mounting_holes:
+    - - 7.5
+      - 5.5
+    - - 7.5
+      - -5.5
+    navigation: true
+    oobb_name: mounting_plate_default
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    part_number_aliexpress: '1005009566745868'
+    pos:
+    - 0
+    - 0
+    - 0
+    save_type: none
+    shape: oobb_holes
+    taxonomy_1: electronic
+    taxonomy_14: aliexpress
+    taxonomy_2: breakout
+    taxonomy_3: input
+    taxonomy_4: remote_control
+    taxonomy_5: servo_tester
+    taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+    type: p
+    type_1: input
+    type_2: remote_control
+    type_3: servo_tester
+    webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+    width: 3
+  - breakout_description: 18_mm_width_14_mm_height_purple_pcb
+    breakout_pcb_height: 14
+    breakout_pcb_width: 18
+    depth: 6
+    filter: ''
+    height: 3
+    manufacturer: aliexpress
+    modes:
+    - 3dpr
+    mounting_hole_radius_name: m2
+    mounting_holes:
+    - - 7.5
+      - 5.5
+    - - 7.5
+      - -5.5
+    navigation: true
+    oobb_name: mounting_plate_default
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    part_number_aliexpress: '1005009566745868'
+    pos:
+    - 7.5
+    - 5.5
+    - 0
+    radius_name: m2
+    rot:
+    - 0
+    - 180
+    - 0
+    save_type: none
+    shape: oobb_screw_countersunk
+    taxonomy_1: electronic
+    taxonomy_14: aliexpress
+    taxonomy_2: breakout
+    taxonomy_3: input
+    taxonomy_4: remote_control
+    taxonomy_5: servo_tester
+    taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+    type: negative
+    type_1: input
+    type_2: remote_control
+    type_3: servo_tester
+    webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+    width: 3
+  - breakout_description: 18_mm_width_14_mm_height_purple_pcb
+    breakout_pcb_height: 14
+    breakout_pcb_width: 18
+    depth: 3
+    filter: ''
+    height: 3
+    manufacturer: aliexpress
+    modes:
+    - 3dpr
+    mounting_hole_radius_name: m2
+    mounting_holes:
+    - - 7.5
+      - 5.5
+    - - 7.5
+      - -5.5
+    navigation: true
+    oobb_name: mounting_plate_default
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    part_number_aliexpress: '1005009566745868'
+    pos:
+    - 7.5
+    - 5.5
+    - 4.5
+    radius: 2.75
+    save_type: none
+    shape: oobb_cylinder
+    taxonomy_1: electronic
+    taxonomy_14: aliexpress
+    taxonomy_2: breakout
+    taxonomy_3: input
+    taxonomy_4: remote_control
+    taxonomy_5: servo_tester
+    taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+    type: positive
+    type_1: input
+    type_2: remote_control
+    type_3: servo_tester
+    webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+    width: 3
+  - breakout_description: 18_mm_width_14_mm_height_purple_pcb
+    breakout_pcb_height: 14
+    breakout_pcb_width: 18
+    depth: 6
+    filter: ''
+    height: 3
+    manufacturer: aliexpress
+    modes:
+    - 3dpr
+    mounting_hole_radius_name: m2
+    mounting_holes:
+    - - 7.5
+      - 5.5
+    - - 7.5
+      - -5.5
+    navigation: true
+    oobb_name: mounting_plate_default
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    part_number_aliexpress: '1005009566745868'
+    pos:
+    - 7.5
+    - -5.5
+    - 0
+    radius_name: m2
+    rot:
+    - 0
+    - 180
+    - 0
+    save_type: none
+    shape: oobb_screw_countersunk
+    taxonomy_1: electronic
+    taxonomy_14: aliexpress
+    taxonomy_2: breakout
+    taxonomy_3: input
+    taxonomy_4: remote_control
+    taxonomy_5: servo_tester
+    taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+    type: negative
+    type_1: input
+    type_2: remote_control
+    type_3: servo_tester
+    webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+    width: 3
+  - breakout_description: 18_mm_width_14_mm_height_purple_pcb
+    breakout_pcb_height: 14
+    breakout_pcb_width: 18
+    depth: 3
+    filter: ''
+    height: 3
+    manufacturer: aliexpress
+    modes:
+    - 3dpr
+    mounting_hole_radius_name: m2
+    mounting_holes:
+    - - 7.5
+      - 5.5
+    - - 7.5
+      - -5.5
+    navigation: true
+    oobb_name: mounting_plate_default
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    part_number_aliexpress: '1005009566745868'
+    pos:
+    - 7.5
+    - -5.5
+    - 4.5
+    radius: 2.75
+    save_type: none
+    shape: oobb_cylinder
+    taxonomy_1: electronic
+    taxonomy_14: aliexpress
+    taxonomy_2: breakout
+    taxonomy_3: input
+    taxonomy_4: remote_control
+    taxonomy_5: servo_tester
+    taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+    type: positive
+    type_1: input
+    type_2: remote_control
+    type_3: servo_tester
+    webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+    width: 3
+  components_string:
+  - oobb_plate_shape_positive_type_3_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_18_mm_width_14_mm_height_purple_pcb_breakout_description_14_breakout_pcb_height_18_breakout_pcb_width_aliexpress_manufacturer_m2_mounting_hole_radius_name_7.5_5.5_7.5_-5.5_mounting_holes_mounting_plate_default_oobb_name_1005009566745868_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_input_taxonomy_3_remote_control_taxonomy_4_servo_tester_taxonomy_5_18_mm_width_14_mm_height_purple_pcb_taxonomy_6_input_type_1_remote_control_type_2_servo_tester_type_3_https://www.aliexpress.com/item/1005009566745868.html_webpage_aliexpress_3_width_3_height
+  - oobb_holes_shape_p_type_3_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_18_mm_width_14_mm_height_purple_pcb_breakout_description_14_breakout_pcb_height_18_breakout_pcb_width_aliexpress_manufacturer_m2_mounting_hole_radius_name_7.5_5.5_7.5_-5.5_mounting_holes_mounting_plate_default_oobb_name_1005009566745868_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_input_taxonomy_3_remote_control_taxonomy_4_servo_tester_taxonomy_5_18_mm_width_14_mm_height_purple_pcb_taxonomy_6_input_type_1_remote_control_type_2_servo_tester_type_3_https://www.aliexpress.com/item/1005009566745868.html_webpage_aliexpress_3_width_3_height_true_both_holes_perimeter_holes
+  - oobb_screw_countersunk_shape_negative_type_m2_radius_name_6_depth_7.5_5.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_18_mm_width_14_mm_height_purple_pcb_breakout_description_14_breakout_pcb_height_18_breakout_pcb_width_aliexpress_manufacturer_m2_mounting_hole_radius_name_7.5_5.5_7.5_-5.5_mounting_holes_mounting_plate_default_oobb_name_1005009566745868_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_input_taxonomy_3_remote_control_taxonomy_4_servo_tester_taxonomy_5_18_mm_width_14_mm_height_purple_pcb_taxonomy_6_input_type_1_remote_control_type_2_servo_tester_type_3_https://www.aliexpress.com/item/1005009566745868.html_webpage_aliexpress_3_width_3_height_0_180_0_rot
+  - oobb_cylinder_shape_positive_type_3_depth_7.5_5.5_4.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_18_mm_width_14_mm_height_purple_pcb_breakout_description_14_breakout_pcb_height_18_breakout_pcb_width_aliexpress_manufacturer_m2_mounting_hole_radius_name_7.5_5.5_7.5_-5.5_mounting_holes_mounting_plate_default_oobb_name_1005009566745868_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_input_taxonomy_3_remote_control_taxonomy_4_servo_tester_taxonomy_5_18_mm_width_14_mm_height_purple_pcb_taxonomy_6_input_type_1_remote_control_type_2_servo_tester_type_3_https://www.aliexpress.com/item/1005009566745868.html_webpage_aliexpress_3_width_3_height_2.75_radius
+  - oobb_screw_countersunk_shape_negative_type_m2_radius_name_6_depth_7.5_-5.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_18_mm_width_14_mm_height_purple_pcb_breakout_description_14_breakout_pcb_height_18_breakout_pcb_width_aliexpress_manufacturer_m2_mounting_hole_radius_name_7.5_5.5_7.5_-5.5_mounting_holes_mounting_plate_default_oobb_name_1005009566745868_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_input_taxonomy_3_remote_control_taxonomy_4_servo_tester_taxonomy_5_18_mm_width_14_mm_height_purple_pcb_taxonomy_6_input_type_1_remote_control_type_2_servo_tester_type_3_https://www.aliexpress.com/item/1005009566745868.html_webpage_aliexpress_3_width_3_height_0_180_0_rot
+  - oobb_cylinder_shape_positive_type_3_depth_7.5_-5.5_4.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_18_mm_width_14_mm_height_purple_pcb_breakout_description_14_breakout_pcb_height_18_breakout_pcb_width_aliexpress_manufacturer_m2_mounting_hole_radius_name_7.5_5.5_7.5_-5.5_mounting_holes_mounting_plate_default_oobb_name_1005009566745868_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_input_taxonomy_3_remote_control_taxonomy_4_servo_tester_taxonomy_5_18_mm_width_14_mm_height_purple_pcb_taxonomy_6_input_type_1_remote_control_type_2_servo_tester_type_3_https://www.aliexpress.com/item/1005009566745868.html_webpage_aliexpress_3_width_3_height_2.75_radius
+  description: default mounting plate default 0x0x0
+  description_extra: ''
+  description_main: ''
+  directory: parts/electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+  id: electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+  id_no_class: electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+  id_no_size: electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+  id_no_type: electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+  kwargs:
+    breakout_description: 18_mm_width_14_mm_height_purple_pcb
+    breakout_pcb_height: 14
+    breakout_pcb_width: 18
+    filter: ''
+    manufacturer: aliexpress
+    modes:
+    - 3dpr
+    mounting_hole_radius_name: m2
+    mounting_holes:
+    - - 7.5
+      - 5.5
+    - - 7.5
+      - -5.5
+    navigation: true
+    oobb_name: mounting_plate_default
+    oomp_description_extra: ''
+    oomp_description_main: mounting_plate_default_
+    oomp_mode: project
+    oomp_run: false
+    overwrite: true
+    part_number_aliexpress: '1005009566745868'
+    save_type: none
+    taxonomy_1: electronic
+    taxonomy_14: aliexpress
+    taxonomy_2: breakout
+    taxonomy_3: input
+    taxonomy_4: remote_control
+    taxonomy_5: servo_tester
+    taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+    type: default_mounting_plate_default
+    type_1: input
+    type_2: remote_control
+    type_3: servo_tester
+    webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+  manufacturer: aliexpress
+  md5: bc353a043492f576ff1fce1604665117
+  md5_10: bc353a0434
+  md5_10_upper: BC353A0434
+  md5_5: bc353
+  md5_5_upper: BC353
+  md5_6: bc353a
+  md5_6_alpha: 7cda2
+  md5_6_alpha_upper: 7CDA2
+  md5_6_upper: BC353A
+  mounting_hole_radius_name: m2
+  mounting_holes: &id005
+  - - 7.5
+    - 5.5
+  - - 7.5
+    - -5.5
+  name: Electronic Breakout Input Remote Control Servo Tester 18 Mm Width 14 Mm Height
+    Purple Pcb Aliexpress
+  name_no_class: Electronic Breakout Input Remote Control Servo Tester 18 Mm Width
+    14 Mm Height Purple Pcb Aliexpress
+  name_no_size: Electronic Breakout Input Remote Control Servo Tester 18 Mm Width
+    14 Mm Height Purple Pcb Aliexpress
+  name_no_type: Electronic Breakout Input Remote Control Servo Tester 18 Mm Width
+    14 Mm Height Purple Pcb Aliexpress
+  name_proper: Electronic Breakout Input Remote Control Servo Tester 18 Mm Width 14
+    Mm Height Purple Pcb Aliexpress
+  name_short: Default Mounting Plate Default
+  name_space: electronic breakout input remote control servo tester 18 mm width 14
+    mm height purple pcb aliexpress
+  name_text: Oobb Part Default Mounting Plate Default
+  name_upper: ELECTRONIC BREAKOUT INPUT REMOTE CONTROL SERVO TESTER 18 MM WIDTH 14
+    MM HEIGHT PURPLE PCB ALIEXPRESS
+  oobb_details:
+  - breakout_description: 18_mm_width_14_mm_height_purple_pcb
+    breakout_pcb_height: 14
+    breakout_pcb_width: 18
+    manufacturer: aliexpress
+    mounting_hole_radius_name: m2
+    mounting_holes: *id005
+    oobb_name: mounting_plate_default
+    part_number_aliexpress: '1005009566745868'
+    taxonomy_1: electronic
+    taxonomy_14: aliexpress
+    taxonomy_2: breakout
+    taxonomy_3: input
+    taxonomy_4: remote_control
+    taxonomy_5: servo_tester
+    taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+    type_1: input
+    type_2: remote_control
+    type_3: servo_tester
+    webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+  - breakout_description: 18_mm_width_14_mm_height_purple_pcb
+    breakout_pcb_height: 14
+    breakout_pcb_width: 18
+    manufacturer: aliexpress
+    mounting_hole_radius_name: m2
+    mounting_holes:
+    - - 7.5
+      - 5.5
+    - - 7.5
+      - -5.5
+    oobb_name: mounting_plate_oobb
+    part_number_aliexpress: '1005009566745868'
+    scad_output: working_oobb
+    taxonomy_1: electronic
+    taxonomy_14: aliexpress
+    taxonomy_2: breakout
+    taxonomy_3: input
+    taxonomy_4: remote_control
+    taxonomy_5: servo_tester
+    taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+    type_1: input
+    type_2: remote_control
+    type_3: servo_tester
+    webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+  oobb_name: mounting_plate_default
+  oomlout_ai_roboclick_1:
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        breakout_description: 18_mm_width_14_mm_height_purple_pcb
+        breakout_pcb_height: 14
+        breakout_pcb_width: 18
+        directory: parts\electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+        manufacturer: aliexpress
+        mounting_hole_radius_name: m2
+        mounting_holes: &id006
+        - - 7.5
+          - 5.5
+        - - 7.5
+          - -5.5
+        name: electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+        name_proper: Electronic Breakout Input Remote Control Servo Tester 18 Mm Width
+          14 Mm Height Purple Pcb Aliexpress
+        name_space: electronic breakout input remote control servo tester 18 mm width
+          14 mm height purple pcb aliexpress
+        name_upper: ELECTRONIC BREAKOUT INPUT REMOTE CONTROL SERVO TESTER 18 MM WIDTH
+          14 MM HEIGHT PURPLE PCB ALIEXPRESS
+        oobb_details:
+        - breakout_description: 18_mm_width_14_mm_height_purple_pcb
+          breakout_pcb_height: 14
+          breakout_pcb_width: 18
+          manufacturer: aliexpress
+          mounting_hole_radius_name: m2
+          mounting_holes: *id006
+          oobb_name: mounting_plate_default
+          part_number_aliexpress: '1005009566745868'
+          taxonomy_1: electronic
+          taxonomy_14: aliexpress
+          taxonomy_2: breakout
+          taxonomy_3: input
+          taxonomy_4: remote_control
+          taxonomy_5: servo_tester
+          taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+          type_1: input
+          type_2: remote_control
+          type_3: servo_tester
+          webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+        - breakout_description: 18_mm_width_14_mm_height_purple_pcb
+          breakout_pcb_height: 14
+          breakout_pcb_width: 18
+          manufacturer: aliexpress
+          mounting_hole_radius_name: m2
+          mounting_holes:
+          - - 7.5
+            - 5.5
+          - - 7.5
+            - -5.5
+          oobb_name: mounting_plate_oobb
+          part_number_aliexpress: '1005009566745868'
+          scad_output: working_oobb
+          taxonomy_1: electronic
+          taxonomy_14: aliexpress
+          taxonomy_2: breakout
+          taxonomy_3: input
+          taxonomy_4: remote_control
+          taxonomy_5: servo_tester
+          taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+          type_1: input
+          type_2: remote_control
+          type_3: servo_tester
+          webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+        part_number_aliexpress: '1005009566745868'
+        taxonomy_1: electronic
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: aliexpress
+        taxonomy_15: ''
+        taxonomy_2: breakout
+        taxonomy_3: input
+        taxonomy_4: remote_control
+        taxonomy_5: servo_tester
+        taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+        taxonomy_7: ''
+        taxonomy_8: ''
+        taxonomy_9: ''
+        type_1: input
+        type_2: remote_control
+        type_3: servo_tester
+        url_chat: ''
+        webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\oomp_electronic_breakout\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomp_key: oomp_electronic_breakout_input_remote_control_servo_tester_18_mm_width_14_mm_height_purple_pcb_aliexpress
+  part_number: ''
+  part_number_aliexpress: '1005009566745868'
+  short_name: ''
+  size: default_mounting_plate_default
+  taxonomy_1: electronic
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: aliexpress
+  taxonomy_14_capital: Aliexpress
+  taxonomy_14_first_letter: a
+  taxonomy_14_first_letter_upper: A
+  taxonomy_14_length_1: a
+  taxonomy_14_length_2: al
+  taxonomy_14_length_3: ali
+  taxonomy_14_length_4: alie
+  taxonomy_14_length_5: aliex
+  taxonomy_14_upper: ALIEXPRESS
+  taxonomy_14_upper_length_1: A
+  taxonomy_14_upper_length_2: AL
+  taxonomy_14_upper_length_3: ALI
+  taxonomy_14_upper_length_4: ALIE
+  taxonomy_14_upper_length_5: ALIEX
+  taxonomy_15: ''
+  taxonomy_1_capital: Electronic
+  taxonomy_1_first_letter: e
+  taxonomy_1_first_letter_upper: E
+  taxonomy_1_length_1: e
+  taxonomy_1_length_2: el
+  taxonomy_1_length_3: ele
+  taxonomy_1_length_4: elec
+  taxonomy_1_length_5: elect
+  taxonomy_1_upper: ELECTRONIC
+  taxonomy_1_upper_length_1: E
+  taxonomy_1_upper_length_2: EL
+  taxonomy_1_upper_length_3: ELE
+  taxonomy_1_upper_length_4: ELEC
+  taxonomy_1_upper_length_5: ELECT
+  taxonomy_2: breakout
+  taxonomy_2_capital: Breakout
+  taxonomy_2_first_letter: b
+  taxonomy_2_first_letter_upper: B
+  taxonomy_2_length_1: b
+  taxonomy_2_length_2: br
+  taxonomy_2_length_3: bre
+  taxonomy_2_length_4: brea
+  taxonomy_2_length_5: break
+  taxonomy_2_upper: BREAKOUT
+  taxonomy_2_upper_length_1: B
+  taxonomy_2_upper_length_2: BR
+  taxonomy_2_upper_length_3: BRE
+  taxonomy_2_upper_length_4: BREA
+  taxonomy_2_upper_length_5: BREAK
+  taxonomy_3: input
+  taxonomy_3_capital: Input
+  taxonomy_3_first_letter: i
+  taxonomy_3_first_letter_upper: I
+  taxonomy_3_length_1: i
+  taxonomy_3_length_2: in
+  taxonomy_3_length_3: inp
+  taxonomy_3_length_4: inpu
+  taxonomy_3_length_5: input
+  taxonomy_3_upper: INPUT
+  taxonomy_3_upper_length_1: I
+  taxonomy_3_upper_length_2: IN
+  taxonomy_3_upper_length_3: INP
+  taxonomy_3_upper_length_4: INPU
+  taxonomy_3_upper_length_5: INPUT
+  taxonomy_4: remote_control
+  taxonomy_4_capital: Remote Control
+  taxonomy_4_first_letter: r
+  taxonomy_4_first_letter_upper: R
+  taxonomy_4_length_1: r
+  taxonomy_4_length_2: re
+  taxonomy_4_length_3: rem
+  taxonomy_4_length_4: remo
+  taxonomy_4_length_5: remot
+  taxonomy_4_upper: REMOTE_CONTROL
+  taxonomy_4_upper_length_1: R
+  taxonomy_4_upper_length_2: RE
+  taxonomy_4_upper_length_3: REM
+  taxonomy_4_upper_length_4: REMO
+  taxonomy_4_upper_length_5: REMOT
+  taxonomy_5: servo_tester
+  taxonomy_5_capital: Servo Tester
+  taxonomy_5_first_letter: s
+  taxonomy_5_first_letter_upper: S
+  taxonomy_5_length_1: s
+  taxonomy_5_length_2: se
+  taxonomy_5_length_3: ser
+  taxonomy_5_length_4: serv
+  taxonomy_5_length_5: servo
+  taxonomy_5_upper: SERVO_TESTER
+  taxonomy_5_upper_length_1: S
+  taxonomy_5_upper_length_2: SE
+  taxonomy_5_upper_length_3: SER
+  taxonomy_5_upper_length_4: SERV
+  taxonomy_5_upper_length_5: SERVO
+  taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+  taxonomy_6_capital: 18 mm Width 14 mm Height Purple Pcb
+  taxonomy_6_first_letter: '1'
+  taxonomy_6_first_letter_upper: '1'
+  taxonomy_6_length_1: '1'
+  taxonomy_6_length_2: '18'
+  taxonomy_6_length_3: '18_'
+  taxonomy_6_length_4: 18_m
+  taxonomy_6_length_5: 18_mm
+  taxonomy_6_upper: 18_MM_WIDTH_14_MM_HEIGHT_PURPLE_PCB
+  taxonomy_6_upper_length_1: '1'
+  taxonomy_6_upper_length_2: '18'
+  taxonomy_6_upper_length_3: '18_'
+  taxonomy_6_upper_length_4: 18_M
+  taxonomy_6_upper_length_5: 18_MM
+  taxonomy_7: ''
+  taxonomy_8: ''
+  taxonomy_9: ''
+  type: part
+  type_1: input
+  type_2: remote_control
+  type_3: servo_tester
+  url_chat: ''
+  webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+type_1: input
+type_2: remote_control
+type_3: servo_tester
+url_chat: ''
+webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html

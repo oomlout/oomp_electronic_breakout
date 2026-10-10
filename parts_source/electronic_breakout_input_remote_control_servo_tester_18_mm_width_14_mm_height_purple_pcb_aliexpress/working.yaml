@@ -1,0 +1,74 @@
+breakout_description: 18_mm_width_14_mm_height_purple_pcb
+breakout_pcb_height: 14
+breakout_pcb_width: 18
+manufacturer: aliexpress
+mounting_hole_radius_name: m2
+mounting_holes: &id001
+- - 7.5
+  - 5.5
+- - 7.5
+  - -5.5
+oobb_details:
+- breakout_description: 18_mm_width_14_mm_height_purple_pcb
+  breakout_pcb_height: 14
+  breakout_pcb_width: 18
+  manufacturer: aliexpress
+  mounting_hole_radius_name: m2
+  mounting_holes: *id001
+  oobb_name: mounting_plate_default
+  part_number_aliexpress: '1005009566745868'
+  taxonomy_1: electronic
+  taxonomy_14: aliexpress
+  taxonomy_2: breakout
+  taxonomy_3: input
+  taxonomy_4: remote_control
+  taxonomy_5: servo_tester
+  taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+  type_1: input
+  type_2: remote_control
+  type_3: servo_tester
+  webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+- breakout_description: 18_mm_width_14_mm_height_purple_pcb
+  breakout_pcb_height: 14
+  breakout_pcb_width: 18
+  manufacturer: aliexpress
+  mounting_hole_radius_name: m2
+  mounting_holes:
+  - - 7.5
+    - 5.5
+  - - 7.5
+    - -5.5
+  oobb_name: mounting_plate_oobb
+  part_number_aliexpress: '1005009566745868'
+  scad_output: working_oobb
+  taxonomy_1: electronic
+  taxonomy_14: aliexpress
+  taxonomy_2: breakout
+  taxonomy_3: input
+  taxonomy_4: remote_control
+  taxonomy_5: servo_tester
+  taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+  type_1: input
+  type_2: remote_control
+  type_3: servo_tester
+  webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html
+part_number_aliexpress: '1005009566745868'
+taxonomy_1: electronic
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: aliexpress
+taxonomy_15: ''
+taxonomy_2: breakout
+taxonomy_3: input
+taxonomy_4: remote_control
+taxonomy_5: servo_tester
+taxonomy_6: 18_mm_width_14_mm_height_purple_pcb
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+type_1: input
+type_2: remote_control
+type_3: servo_tester
+webpage_aliexpress: https://www.aliexpress.com/item/1005009566745868.html

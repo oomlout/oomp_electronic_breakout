@@ -1,0 +1,88 @@
+breakout_description: 48_mm_width_25_mm_height_blue_pcb
+breakout_pcb_height: 25
+breakout_pcb_width: 48
+breakout_pcb_width_extra: 10
+manufacturer: aliexpress
+mounting_hole_radius_name: m3
+mounting_holes: &id001
+- - 18.0
+  - -10.0
+- - -18.0
+  - 10.0
+oobb_details:
+- breakout_description: 48_mm_width_25_mm_height_blue_pcb
+  breakout_pcb_height: 25
+  breakout_pcb_width: 48
+  breakout_pcb_width_extra: 10
+  manufacturer: aliexpress
+  mounting_hole_radius_name: m3
+  mounting_holes: *id001
+  oobb_name: mounting_plate_default
+  part_number_aliexpress: '1005010001439374'
+  shift_wire_hole_x: -5
+  shift_wire_hole_y: -5
+  taxonomy_1: electronic
+  taxonomy_14: aliexpress
+  taxonomy_2: breakout
+  taxonomy_3: power
+  taxonomy_4: dc_to_dc
+  taxonomy_5: step_down
+  taxonomy_6: lm2596
+  taxonomy_7: 48_mm_width_25_mm_height_blue_pcb
+  type_1: power
+  type_2: dc_to_dc
+  type_3: step_down
+  type_4: lm2596
+  webpage_aliexpress: https://www.aliexpress.com/item/1005010001439374.html
+- breakout_description: 48_mm_width_25_mm_height_blue_pcb
+  breakout_pcb_height: 25
+  breakout_pcb_width: 48
+  breakout_pcb_width_extra: 10
+  manufacturer: aliexpress
+  mounting_hole_radius_name: m3
+  mounting_holes:
+  - - 18.0
+    - -10.0
+  - - -18.0
+    - 10.0
+  oobb_name: mounting_plate_oobb
+  part_number_aliexpress: '1005010001439374'
+  scad_output: working_oobb
+  shift_wire_hole_x: -5
+  shift_wire_hole_y: -5
+  taxonomy_1: electronic
+  taxonomy_14: aliexpress
+  taxonomy_2: breakout
+  taxonomy_3: power
+  taxonomy_4: dc_to_dc
+  taxonomy_5: step_down
+  taxonomy_6: lm2596
+  taxonomy_7: 48_mm_width_25_mm_height_blue_pcb
+  type_1: power
+  type_2: dc_to_dc
+  type_3: step_down
+  type_4: lm2596
+  webpage_aliexpress: https://www.aliexpress.com/item/1005010001439374.html
+part_number_aliexpress: '1005010001439374'
+shift_wire_hole_x: -5
+shift_wire_hole_y: -5
+taxonomy_1: electronic
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: aliexpress
+taxonomy_15: ''
+taxonomy_2: breakout
+taxonomy_3: power
+taxonomy_4: dc_to_dc
+taxonomy_5: step_down
+taxonomy_6: lm2596
+taxonomy_7: 48_mm_width_25_mm_height_blue_pcb
+taxonomy_8: ''
+taxonomy_9: ''
+type_1: power
+type_2: dc_to_dc
+type_3: step_down
+type_4: lm2596
+webpage_aliexpress: https://www.aliexpress.com/item/1005010001439374.html

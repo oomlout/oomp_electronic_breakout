@@ -56,21 +56,27 @@ def get_parts(kwargs, oomp_mode):
             continue
 
         oobb_details = loaded_part.get("oobb_details")
-        if not isinstance(oobb_details, dict):
+        if isinstance(oobb_details, dict):
+            oobb_details = [oobb_details]
+        if not isinstance(oobb_details, list):
             continue
 
-        part = loaded_part
+        for details in oobb_details:
+            if not isinstance(details, dict):
+                continue
+            part = copy.deepcopy(loaded_part)
 
-        part_kwargs = copy.deepcopy(kwargs)
-        part_kwargs.update(copy.deepcopy(loaded_part.get("kwargs", {})))
-        part_kwargs.update(copy.deepcopy(oobb_details))
-        part["kwargs"] = part_kwargs
-        part["oobb_name"] = part.get("oobb_name", oobb_details.get("oobb_name", "default"))
+            part_kwargs = copy.deepcopy(loaded_part.get("kwargs", {}))
+            part_kwargs.pop("scad_output", None)
+            part_kwargs.update(copy.deepcopy(kwargs))
+            part_kwargs.update(copy.deepcopy(details))
+            part["kwargs"] = part_kwargs
+            part["oobb_name"] = details.get("oobb_name", "default")
 
-        if oomp_mode == "oobb":
-            part["kwargs"]["oomp_size"] = part["oobb_name"]
+            if oomp_mode == "oobb":
+                part["kwargs"]["oomp_size"] = part["oobb_name"]
 
-        parts.append(part)
+            parts.append(part)
 
 
     return parts
@@ -131,6 +137,10 @@ def get_base(thing, **kwargs):
 def get_mounting_plate_default(thing, **kwargs):
     import working_scad_mounting_plate_default
     working_scad_mounting_plate_default.get_base(thing, **kwargs)
+
+def get_mounting_plate_oobb(thing, **kwargs):
+    import working_scad_mounting_plate_oobb
+    working_scad_mounting_plate_oobb.get_base(thing, **kwargs)
 
 def get_hole_cover(thing, **kwargs):
 

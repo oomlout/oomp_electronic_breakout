@@ -60,7 +60,7 @@ kwargs:
   oomp_description_extra: ''
   oomp_description_main: mounting_plate_default_
   oomp_mode: project
-  oomp_run: true
+  oomp_run: false
   overwrite: true
   part_number_aliexpress: '1005002867727977'
   taxonomy_1: electronic
@@ -69,7 +69,6 @@ kwargs:
   taxonomy_3: output
   taxonomy_4: relay
   taxonomy_5: 49_mm_width_38_mm_height_black_pcb
-  typ: all
   type: default_mounting_plate_default
   type_1: output
   type_2: relay
@@ -108,7 +107,7 @@ name_proper: Electronic Breakout Output Relay 49 Mm Width 38 Mm Height Black Pcb
 name_space: electronic breakout output relay 49 mm width 38 mm height black pcb aliexpress
 name_upper: ELECTRONIC BREAKOUT OUTPUT RELAY 49 MM WIDTH 38 MM HEIGHT BLACK PCB ALIEXPRESS
 oobb_details:
-  breakout_description: 49_mm_width_38_mm_height_black_pcb
+- breakout_description: 49_mm_width_38_mm_height_black_pcb
   breakout_pcb_height: 38
   breakout_pcb_width: 49
   manufacturer: aliexpress
@@ -116,6 +115,32 @@ oobb_details:
   mounting_holes: *id001
   oobb_name: mounting_plate_default
   part_number_aliexpress: '1005002867727977'
+  taxonomy_1: electronic
+  taxonomy_14: aliexpress
+  taxonomy_2: breakout
+  taxonomy_3: output
+  taxonomy_4: relay
+  taxonomy_5: 49_mm_width_38_mm_height_black_pcb
+  type_1: output
+  type_2: relay
+  webpage_aliexpress: https://www.aliexpress.com/item/1005002867727977.html
+- breakout_description: 49_mm_width_38_mm_height_black_pcb
+  breakout_pcb_height: 38
+  breakout_pcb_width: 49
+  manufacturer: aliexpress
+  mounting_hole_radius_name: m3
+  mounting_holes:
+  - - 22.0
+    - 16.5
+  - - 22.0
+    - -16.5
+  - - -22.0
+    - 16.5
+  - - -22.0
+    - -16.5
+  oobb_name: mounting_plate_oobb
+  part_number_aliexpress: '1005002867727977'
+  scad_output: working_oobb
   taxonomy_1: electronic
   taxonomy_14: aliexpress
   taxonomy_2: breakout
@@ -155,7 +180,7 @@ oomlout_ai_roboclick_1:
       name_upper: ELECTRONIC BREAKOUT OUTPUT RELAY 49 MM WIDTH 38 MM HEIGHT BLACK
         PCB ALIEXPRESS
       oobb_details:
-        breakout_description: 49_mm_width_38_mm_height_black_pcb
+      - breakout_description: 49_mm_width_38_mm_height_black_pcb
         breakout_pcb_height: 38
         breakout_pcb_width: 49
         manufacturer: aliexpress
@@ -163,6 +188,32 @@ oomlout_ai_roboclick_1:
         mounting_holes: *id002
         oobb_name: mounting_plate_default
         part_number_aliexpress: '1005002867727977'
+        taxonomy_1: electronic
+        taxonomy_14: aliexpress
+        taxonomy_2: breakout
+        taxonomy_3: output
+        taxonomy_4: relay
+        taxonomy_5: 49_mm_width_38_mm_height_black_pcb
+        type_1: output
+        type_2: relay
+        webpage_aliexpress: https://www.aliexpress.com/item/1005002867727977.html
+      - breakout_description: 49_mm_width_38_mm_height_black_pcb
+        breakout_pcb_height: 38
+        breakout_pcb_width: 49
+        manufacturer: aliexpress
+        mounting_hole_radius_name: m3
+        mounting_holes:
+        - - 22.0
+          - 16.5
+        - - 22.0
+          - -16.5
+        - - -22.0
+          - 16.5
+        - - -22.0
+          - -16.5
+        oobb_name: mounting_plate_oobb
+        part_number_aliexpress: '1005002867727977'
+        scad_output: working_oobb
         taxonomy_1: electronic
         taxonomy_14: aliexpress
         taxonomy_2: breakout
@@ -339,18 +390,18 @@ thing:
   color: ''
   components:
   - - depth: 3
-      height: 5.0
+      height: 5
       pos:
       - 0
       - 0
       - 0
       shape: rounded_rectangle
       size:
-      - 89.0
-      - 74.0
+      - 89
+      - 74
       - 3
       type: positive
-      width: 6.0
+      width: 6
   - - - h: 200
         inclusion: laser
         m: ''
@@ -1974,7 +2025,7 @@ thing:
   - - objects:
       - - depth: 6
           h: 1.7
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -1984,10 +2035,10 @@ thing:
           r2: 2.4
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -1997,10 +2048,10 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2009,10 +2060,10 @@ thing:
           r: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2022,10 +2073,10 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 1.9
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2035,10 +2086,10 @@ thing:
           r2: 3.6
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -2048,10 +2099,10 @@ thing:
           radius: 1.8
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2060,10 +2111,10 @@ thing:
           r: 1.8
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2073,10 +2124,10 @@ thing:
           radius: 1.8
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 1.7
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2086,10 +2137,10 @@ thing:
           r2: 2.9
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -2099,10 +2150,10 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2111,10 +2162,10 @@ thing:
           r: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2124,7 +2175,7 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       pos:
       - 22.0
       - 16.5
@@ -2137,7 +2188,7 @@ thing:
       typetype: negative
   - - depth: 3
       h: 3
-      height: 5.0
+      height: 5
       inclusion: laser
       pos: &id003
       - 22.0
@@ -2147,30 +2198,30 @@ thing:
       radius: 3.75
       shape: cylinder
       type: positive
-      width: 6.0
+      width: 6
     - depth: 3
       h: 3
-      height: 5.0
+      height: 5
       inclusion: 3dpr
       pos: *id003
       r: 3.75
       shape: cylinder
       type: positive
-      width: 6.0
+      width: 6
     - depth: 3
       h: 3
-      height: 5.0
+      height: 5
       inclusion: 'true'
       pos: *id003
       r: 3.75
       radius: 3.75
       shape: cylinder
       type: positive
-      width: 6.0
+      width: 6
   - - objects:
       - - depth: 6
           h: 1.7
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -2180,10 +2231,10 @@ thing:
           r2: 2.4
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -2193,10 +2244,10 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2205,10 +2256,10 @@ thing:
           r: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2218,10 +2269,10 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 1.9
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2231,10 +2282,10 @@ thing:
           r2: 3.6
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -2244,10 +2295,10 @@ thing:
           radius: 1.8
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2256,10 +2307,10 @@ thing:
           r: 1.8
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2269,10 +2320,10 @@ thing:
           radius: 1.8
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 1.7
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2282,10 +2333,10 @@ thing:
           r2: 2.9
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -2295,10 +2346,10 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2307,10 +2358,10 @@ thing:
           r: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2320,7 +2371,7 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       pos:
       - 22.0
       - -16.5
@@ -2333,7 +2384,7 @@ thing:
       typetype: negative
   - - depth: 3
       h: 3
-      height: 5.0
+      height: 5
       inclusion: laser
       pos: &id004
       - 22.0
@@ -2343,30 +2394,30 @@ thing:
       radius: 3.75
       shape: cylinder
       type: positive
-      width: 6.0
+      width: 6
     - depth: 3
       h: 3
-      height: 5.0
+      height: 5
       inclusion: 3dpr
       pos: *id004
       r: 3.75
       shape: cylinder
       type: positive
-      width: 6.0
+      width: 6
     - depth: 3
       h: 3
-      height: 5.0
+      height: 5
       inclusion: 'true'
       pos: *id004
       r: 3.75
       radius: 3.75
       shape: cylinder
       type: positive
-      width: 6.0
+      width: 6
   - - objects:
       - - depth: 6
           h: 1.7
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -2376,10 +2427,10 @@ thing:
           r2: 2.4
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -2389,10 +2440,10 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2401,10 +2452,10 @@ thing:
           r: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2414,10 +2465,10 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 1.9
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2427,10 +2478,10 @@ thing:
           r2: 3.6
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -2440,10 +2491,10 @@ thing:
           radius: 1.8
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2452,10 +2503,10 @@ thing:
           r: 1.8
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2465,10 +2516,10 @@ thing:
           radius: 1.8
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 1.7
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2478,10 +2529,10 @@ thing:
           r2: 2.9
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -2491,10 +2542,10 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2503,10 +2554,10 @@ thing:
           r: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2516,7 +2567,7 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       pos:
       - -22.0
       - 16.5
@@ -2529,7 +2580,7 @@ thing:
       typetype: negative
   - - depth: 3
       h: 3
-      height: 5.0
+      height: 5
       inclusion: laser
       pos: &id005
       - -22.0
@@ -2539,30 +2590,30 @@ thing:
       radius: 3.75
       shape: cylinder
       type: positive
-      width: 6.0
+      width: 6
     - depth: 3
       h: 3
-      height: 5.0
+      height: 5
       inclusion: 3dpr
       pos: *id005
       r: 3.75
       shape: cylinder
       type: positive
-      width: 6.0
+      width: 6
     - depth: 3
       h: 3
-      height: 5.0
+      height: 5
       inclusion: 'true'
       pos: *id005
       r: 3.75
       radius: 3.75
       shape: cylinder
       type: positive
-      width: 6.0
+      width: 6
   - - objects:
       - - depth: 6
           h: 1.7
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -2572,10 +2623,10 @@ thing:
           r2: 2.4
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -2585,10 +2636,10 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2597,10 +2648,10 @@ thing:
           r: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2610,10 +2661,10 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 1.9
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2623,10 +2674,10 @@ thing:
           r2: 3.6
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -2636,10 +2687,10 @@ thing:
           radius: 1.8
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2648,10 +2699,10 @@ thing:
           r: 1.8
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2661,10 +2712,10 @@ thing:
           radius: 1.8
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 1.7
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2674,10 +2725,10 @@ thing:
           r2: 2.9
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       - - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: laser
           pos:
           - 0
@@ -2687,10 +2738,10 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 3dpr
           pos:
           - 0
@@ -2699,10 +2750,10 @@ thing:
           r: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
         - depth: 6
           h: 6
-          height: 5.0
+          height: 5
           inclusion: 'true'
           pos:
           - 0
@@ -2712,7 +2763,7 @@ thing:
           radius: 1.5
           shape: cylinder
           type: positive
-          width: 6.0
+          width: 6
       pos:
       - -22.0
       - -16.5
@@ -2725,7 +2776,7 @@ thing:
       typetype: negative
   - - depth: 3
       h: 3
-      height: 5.0
+      height: 5
       inclusion: laser
       pos: &id006
       - -22.0
@@ -2735,33 +2786,33 @@ thing:
       radius: 3.75
       shape: cylinder
       type: positive
-      width: 6.0
+      width: 6
     - depth: 3
       h: 3
-      height: 5.0
+      height: 5
       inclusion: 3dpr
       pos: *id006
       r: 3.75
       shape: cylinder
       type: positive
-      width: 6.0
+      width: 6
     - depth: 3
       h: 3
-      height: 5.0
+      height: 5
       inclusion: 'true'
       pos: *id006
       r: 3.75
       radius: 3.75
       shape: cylinder
       type: positive
-      width: 6.0
+      width: 6
   components_objects:
   - breakout_description: 49_mm_width_38_mm_height_black_pcb
     breakout_pcb_height: 38
     breakout_pcb_width: 49
     depth: 3
     filter: ''
-    height: 5.0
+    height: 5
     manufacturer: aliexpress
     modes:
     - 3dpr
@@ -2778,14 +2829,14 @@ thing:
     navigation: true
     oobb_name: mounting_plate_default
     oomp_mode: project
-    oomp_run: true
+    oomp_run: false
     overwrite: true
     part_number_aliexpress: '1005002867727977'
     pos:
     - 0
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_plate
     taxonomy_1: electronic
     taxonomy_14: aliexpress
@@ -2793,19 +2844,18 @@ thing:
     taxonomy_3: output
     taxonomy_4: relay
     taxonomy_5: 49_mm_width_38_mm_height_black_pcb
-    typ: all
     type: positive
     type_1: output
     type_2: relay
     webpage_aliexpress: https://www.aliexpress.com/item/1005002867727977.html
-    width: 6.0
+    width: 6
   - both_holes: true
     breakout_description: 49_mm_width_38_mm_height_black_pcb
     breakout_pcb_height: 38
     breakout_pcb_width: 49
     depth: 3
     filter: ''
-    height: 5.0
+    height: 5
     holes: perimeter
     manufacturer: aliexpress
     modes:
@@ -2823,14 +2873,14 @@ thing:
     navigation: true
     oobb_name: mounting_plate_default
     oomp_mode: project
-    oomp_run: true
+    oomp_run: false
     overwrite: true
     part_number_aliexpress: '1005002867727977'
     pos:
     - 0
     - 0
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_holes
     taxonomy_1: electronic
     taxonomy_14: aliexpress
@@ -2838,18 +2888,17 @@ thing:
     taxonomy_3: output
     taxonomy_4: relay
     taxonomy_5: 49_mm_width_38_mm_height_black_pcb
-    typ: all
     type: p
     type_1: output
     type_2: relay
     webpage_aliexpress: https://www.aliexpress.com/item/1005002867727977.html
-    width: 6.0
+    width: 6
   - breakout_description: 49_mm_width_38_mm_height_black_pcb
     breakout_pcb_height: 38
     breakout_pcb_width: 49
     depth: 6
     filter: ''
-    height: 5.0
+    height: 5
     manufacturer: aliexpress
     modes:
     - 3dpr
@@ -2866,7 +2915,7 @@ thing:
     navigation: true
     oobb_name: mounting_plate_default
     oomp_mode: project
-    oomp_run: true
+    oomp_run: false
     overwrite: true
     part_number_aliexpress: '1005002867727977'
     pos:
@@ -2878,7 +2927,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_screw_countersunk
     taxonomy_1: electronic
     taxonomy_14: aliexpress
@@ -2886,18 +2935,17 @@ thing:
     taxonomy_3: output
     taxonomy_4: relay
     taxonomy_5: 49_mm_width_38_mm_height_black_pcb
-    typ: all
     type: negative
     type_1: output
     type_2: relay
     webpage_aliexpress: https://www.aliexpress.com/item/1005002867727977.html
-    width: 6.0
+    width: 6
   - breakout_description: 49_mm_width_38_mm_height_black_pcb
     breakout_pcb_height: 38
     breakout_pcb_width: 49
     depth: 3
     filter: ''
-    height: 5.0
+    height: 5
     manufacturer: aliexpress
     modes:
     - 3dpr
@@ -2914,7 +2962,7 @@ thing:
     navigation: true
     oobb_name: mounting_plate_default
     oomp_mode: project
-    oomp_run: true
+    oomp_run: false
     overwrite: true
     part_number_aliexpress: '1005002867727977'
     pos:
@@ -2922,7 +2970,7 @@ thing:
     - 16.5
     - 4.5
     radius: 3.75
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     taxonomy_1: electronic
     taxonomy_14: aliexpress
@@ -2930,18 +2978,17 @@ thing:
     taxonomy_3: output
     taxonomy_4: relay
     taxonomy_5: 49_mm_width_38_mm_height_black_pcb
-    typ: all
     type: positive
     type_1: output
     type_2: relay
     webpage_aliexpress: https://www.aliexpress.com/item/1005002867727977.html
-    width: 6.0
+    width: 6
   - breakout_description: 49_mm_width_38_mm_height_black_pcb
     breakout_pcb_height: 38
     breakout_pcb_width: 49
     depth: 6
     filter: ''
-    height: 5.0
+    height: 5
     manufacturer: aliexpress
     modes:
     - 3dpr
@@ -2958,7 +3005,7 @@ thing:
     navigation: true
     oobb_name: mounting_plate_default
     oomp_mode: project
-    oomp_run: true
+    oomp_run: false
     overwrite: true
     part_number_aliexpress: '1005002867727977'
     pos:
@@ -2970,7 +3017,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_screw_countersunk
     taxonomy_1: electronic
     taxonomy_14: aliexpress
@@ -2978,18 +3025,17 @@ thing:
     taxonomy_3: output
     taxonomy_4: relay
     taxonomy_5: 49_mm_width_38_mm_height_black_pcb
-    typ: all
     type: negative
     type_1: output
     type_2: relay
     webpage_aliexpress: https://www.aliexpress.com/item/1005002867727977.html
-    width: 6.0
+    width: 6
   - breakout_description: 49_mm_width_38_mm_height_black_pcb
     breakout_pcb_height: 38
     breakout_pcb_width: 49
     depth: 3
     filter: ''
-    height: 5.0
+    height: 5
     manufacturer: aliexpress
     modes:
     - 3dpr
@@ -3006,7 +3052,7 @@ thing:
     navigation: true
     oobb_name: mounting_plate_default
     oomp_mode: project
-    oomp_run: true
+    oomp_run: false
     overwrite: true
     part_number_aliexpress: '1005002867727977'
     pos:
@@ -3014,7 +3060,7 @@ thing:
     - -16.5
     - 4.5
     radius: 3.75
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     taxonomy_1: electronic
     taxonomy_14: aliexpress
@@ -3022,18 +3068,17 @@ thing:
     taxonomy_3: output
     taxonomy_4: relay
     taxonomy_5: 49_mm_width_38_mm_height_black_pcb
-    typ: all
     type: positive
     type_1: output
     type_2: relay
     webpage_aliexpress: https://www.aliexpress.com/item/1005002867727977.html
-    width: 6.0
+    width: 6
   - breakout_description: 49_mm_width_38_mm_height_black_pcb
     breakout_pcb_height: 38
     breakout_pcb_width: 49
     depth: 6
     filter: ''
-    height: 5.0
+    height: 5
     manufacturer: aliexpress
     modes:
     - 3dpr
@@ -3050,7 +3095,7 @@ thing:
     navigation: true
     oobb_name: mounting_plate_default
     oomp_mode: project
-    oomp_run: true
+    oomp_run: false
     overwrite: true
     part_number_aliexpress: '1005002867727977'
     pos:
@@ -3062,7 +3107,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_screw_countersunk
     taxonomy_1: electronic
     taxonomy_14: aliexpress
@@ -3070,18 +3115,17 @@ thing:
     taxonomy_3: output
     taxonomy_4: relay
     taxonomy_5: 49_mm_width_38_mm_height_black_pcb
-    typ: all
     type: negative
     type_1: output
     type_2: relay
     webpage_aliexpress: https://www.aliexpress.com/item/1005002867727977.html
-    width: 6.0
+    width: 6
   - breakout_description: 49_mm_width_38_mm_height_black_pcb
     breakout_pcb_height: 38
     breakout_pcb_width: 49
     depth: 3
     filter: ''
-    height: 5.0
+    height: 5
     manufacturer: aliexpress
     modes:
     - 3dpr
@@ -3098,7 +3142,7 @@ thing:
     navigation: true
     oobb_name: mounting_plate_default
     oomp_mode: project
-    oomp_run: true
+    oomp_run: false
     overwrite: true
     part_number_aliexpress: '1005002867727977'
     pos:
@@ -3106,7 +3150,7 @@ thing:
     - 16.5
     - 4.5
     radius: 3.75
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     taxonomy_1: electronic
     taxonomy_14: aliexpress
@@ -3114,18 +3158,17 @@ thing:
     taxonomy_3: output
     taxonomy_4: relay
     taxonomy_5: 49_mm_width_38_mm_height_black_pcb
-    typ: all
     type: positive
     type_1: output
     type_2: relay
     webpage_aliexpress: https://www.aliexpress.com/item/1005002867727977.html
-    width: 6.0
+    width: 6
   - breakout_description: 49_mm_width_38_mm_height_black_pcb
     breakout_pcb_height: 38
     breakout_pcb_width: 49
     depth: 6
     filter: ''
-    height: 5.0
+    height: 5
     manufacturer: aliexpress
     modes:
     - 3dpr
@@ -3142,7 +3185,7 @@ thing:
     navigation: true
     oobb_name: mounting_plate_default
     oomp_mode: project
-    oomp_run: true
+    oomp_run: false
     overwrite: true
     part_number_aliexpress: '1005002867727977'
     pos:
@@ -3154,7 +3197,7 @@ thing:
     - 0
     - 180
     - 0
-    save_type: all
+    save_type: none
     shape: oobb_screw_countersunk
     taxonomy_1: electronic
     taxonomy_14: aliexpress
@@ -3162,18 +3205,17 @@ thing:
     taxonomy_3: output
     taxonomy_4: relay
     taxonomy_5: 49_mm_width_38_mm_height_black_pcb
-    typ: all
     type: negative
     type_1: output
     type_2: relay
     webpage_aliexpress: https://www.aliexpress.com/item/1005002867727977.html
-    width: 6.0
+    width: 6
   - breakout_description: 49_mm_width_38_mm_height_black_pcb
     breakout_pcb_height: 38
     breakout_pcb_width: 49
     depth: 3
     filter: ''
-    height: 5.0
+    height: 5
     manufacturer: aliexpress
     modes:
     - 3dpr
@@ -3190,7 +3232,7 @@ thing:
     navigation: true
     oobb_name: mounting_plate_default
     oomp_mode: project
-    oomp_run: true
+    oomp_run: false
     overwrite: true
     part_number_aliexpress: '1005002867727977'
     pos:
@@ -3198,7 +3240,7 @@ thing:
     - -16.5
     - 4.5
     radius: 3.75
-    save_type: all
+    save_type: none
     shape: oobb_cylinder
     taxonomy_1: electronic
     taxonomy_14: aliexpress
@@ -3206,23 +3248,22 @@ thing:
     taxonomy_3: output
     taxonomy_4: relay
     taxonomy_5: 49_mm_width_38_mm_height_black_pcb
-    typ: all
     type: positive
     type_1: output
     type_2: relay
     webpage_aliexpress: https://www.aliexpress.com/item/1005002867727977.html
-    width: 6.0
+    width: 6
   components_string:
-  - oobb_plate_shape_positive_type_3_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6.0_width_5.0_height
-  - oobb_holes_shape_p_type_3_depth_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6.0_width_5.0_height_true_both_holes_perimeter_holes
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_22.0_16.5_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6.0_width_5.0_height_0_180_0_rot
-  - oobb_cylinder_shape_positive_type_3_depth_22.0_16.5_4.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6.0_width_5.0_height_3.75_radius
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_22.0_-16.5_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6.0_width_5.0_height_0_180_0_rot
-  - oobb_cylinder_shape_positive_type_3_depth_22.0_-16.5_4.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6.0_width_5.0_height_3.75_radius
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_-22.0_16.5_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6.0_width_5.0_height_0_180_0_rot
-  - oobb_cylinder_shape_positive_type_3_depth_-22.0_16.5_4.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6.0_width_5.0_height_3.75_radius
-  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_-22.0_-16.5_0_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6.0_width_5.0_height_0_180_0_rot
-  - oobb_cylinder_shape_positive_type_3_depth_-22.0_-16.5_4.5_pos_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6.0_width_5.0_height_3.75_radius
+  - oobb_plate_shape_positive_type_3_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6_width_5_height
+  - oobb_holes_shape_p_type_3_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6_width_5_height_true_both_holes_perimeter_holes
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_22.0_16.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6_width_5_height_0_180_0_rot
+  - oobb_cylinder_shape_positive_type_3_depth_22.0_16.5_4.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6_width_5_height_3.75_radius
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_22.0_-16.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6_width_5_height_0_180_0_rot
+  - oobb_cylinder_shape_positive_type_3_depth_22.0_-16.5_4.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6_width_5_height_3.75_radius
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_-22.0_16.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6_width_5_height_0_180_0_rot
+  - oobb_cylinder_shape_positive_type_3_depth_-22.0_16.5_4.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6_width_5_height_3.75_radius
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_-22.0_-16.5_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6_width_5_height_0_180_0_rot
+  - oobb_cylinder_shape_positive_type_3_depth_-22.0_-16.5_4.5_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_false_oomp_run_49_mm_width_38_mm_height_black_pcb_breakout_description_38_breakout_pcb_height_49_breakout_pcb_width_aliexpress_manufacturer_m3_mounting_hole_radius_name_22.0_16.5_22.0_-16.5_-22.0_16.5_-22.0_-16.5_mounting_holes_mounting_plate_default_oobb_name_1005002867727977_part_number_aliexpress_electronic_taxonomy_1_aliexpress_taxonomy_14_breakout_taxonomy_2_output_taxonomy_3_relay_taxonomy_4_49_mm_width_38_mm_height_black_pcb_taxonomy_5_output_type_1_relay_type_2_https://www.aliexpress.com/item/1005002867727977.html_webpage_aliexpress_6_width_5_height_3.75_radius
   description: default mounting plate default 0x0x0
   description_extra: ''
   description_main: ''
@@ -3254,17 +3295,16 @@ thing:
     oomp_description_extra: ''
     oomp_description_main: mounting_plate_default_
     oomp_mode: project
-    oomp_run: true
+    oomp_run: false
     overwrite: true
     part_number_aliexpress: '1005002867727977'
-    save_type: all
+    save_type: none
     taxonomy_1: electronic
     taxonomy_14: aliexpress
     taxonomy_2: breakout
     taxonomy_3: output
     taxonomy_4: relay
     taxonomy_5: 49_mm_width_38_mm_height_black_pcb
-    typ: all
     type: default_mounting_plate_default
     type_1: output
     type_2: relay
@@ -3308,7 +3348,7 @@ thing:
   name_upper: ELECTRONIC BREAKOUT OUTPUT RELAY 49 MM WIDTH 38 MM HEIGHT BLACK PCB
     ALIEXPRESS
   oobb_details:
-    breakout_description: 49_mm_width_38_mm_height_black_pcb
+  - breakout_description: 49_mm_width_38_mm_height_black_pcb
     breakout_pcb_height: 38
     breakout_pcb_width: 49
     manufacturer: aliexpress
@@ -3316,6 +3356,32 @@ thing:
     mounting_holes: *id007
     oobb_name: mounting_plate_default
     part_number_aliexpress: '1005002867727977'
+    taxonomy_1: electronic
+    taxonomy_14: aliexpress
+    taxonomy_2: breakout
+    taxonomy_3: output
+    taxonomy_4: relay
+    taxonomy_5: 49_mm_width_38_mm_height_black_pcb
+    type_1: output
+    type_2: relay
+    webpage_aliexpress: https://www.aliexpress.com/item/1005002867727977.html
+  - breakout_description: 49_mm_width_38_mm_height_black_pcb
+    breakout_pcb_height: 38
+    breakout_pcb_width: 49
+    manufacturer: aliexpress
+    mounting_hole_radius_name: m3
+    mounting_holes:
+    - - 22.0
+      - 16.5
+    - - 22.0
+      - -16.5
+    - - -22.0
+      - 16.5
+    - - -22.0
+      - -16.5
+    oobb_name: mounting_plate_oobb
+    part_number_aliexpress: '1005002867727977'
+    scad_output: working_oobb
     taxonomy_1: electronic
     taxonomy_14: aliexpress
     taxonomy_2: breakout
@@ -3355,7 +3421,7 @@ thing:
         name_upper: ELECTRONIC BREAKOUT OUTPUT RELAY 49 MM WIDTH 38 MM HEIGHT BLACK
           PCB ALIEXPRESS
         oobb_details:
-          breakout_description: 49_mm_width_38_mm_height_black_pcb
+        - breakout_description: 49_mm_width_38_mm_height_black_pcb
           breakout_pcb_height: 38
           breakout_pcb_width: 49
           manufacturer: aliexpress
@@ -3363,6 +3429,32 @@ thing:
           mounting_holes: *id008
           oobb_name: mounting_plate_default
           part_number_aliexpress: '1005002867727977'
+          taxonomy_1: electronic
+          taxonomy_14: aliexpress
+          taxonomy_2: breakout
+          taxonomy_3: output
+          taxonomy_4: relay
+          taxonomy_5: 49_mm_width_38_mm_height_black_pcb
+          type_1: output
+          type_2: relay
+          webpage_aliexpress: https://www.aliexpress.com/item/1005002867727977.html
+        - breakout_description: 49_mm_width_38_mm_height_black_pcb
+          breakout_pcb_height: 38
+          breakout_pcb_width: 49
+          manufacturer: aliexpress
+          mounting_hole_radius_name: m3
+          mounting_holes:
+          - - 22.0
+            - 16.5
+          - - 22.0
+            - -16.5
+          - - -22.0
+            - 16.5
+          - - -22.0
+            - -16.5
+          oobb_name: mounting_plate_oobb
+          part_number_aliexpress: '1005002867727977'
+          scad_output: working_oobb
           taxonomy_1: electronic
           taxonomy_14: aliexpress
           taxonomy_2: breakout
